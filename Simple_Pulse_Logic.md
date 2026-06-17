@@ -14,7 +14,7 @@ IF Bool[1] and not Bool[2] then
 
 
 	Pulse := true;
-	bool[2] := false;
+	bool[2] := true;
 end_if
 
 If not Bool[1] then

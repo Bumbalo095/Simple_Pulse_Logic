@@ -5,20 +5,20 @@
 Var
 
 
-Bool : Array[1..2] of bool;
-
+Input : Array[1..2] of bool;
+Pulse : bool;
 
 end Var
 
-IF Bool[1] and not Bool[2] then
+IF Input[1] and not Input[2] then
 
 
 	Pulse := true;
-	bool[2] := true;
+	Input[2] := true;
 end_if
 
-If not Bool[1] then
+If not Input[1] then
 
 
-	bool[2] := false;
+	Input[2] := false;
 end_if

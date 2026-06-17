@@ -6,6 +6,8 @@ Var
 
 
 Input : Array[1..2] of bool;
+
+
 Pulse : bool;
 
 end Var
